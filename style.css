@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(9, 9, 110);
+}
+
+.cal {   
+    margin-top: 20px;
+    padding: 0 20px;
+    width: 50vw;
+    border: 10px solid  rgb(9, 9, 110);
+    border-radius: 1.5rem;
+   }
+
+#inp input{
+    width: 7vw;
+    border: 2px solid rgb(9, 9, 110);
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+#inp #fxn {
+    width: 6vw;
+    border: 2px solid rgb(9, 9, 110);
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#inp button {
+    width: 6vw;
+    height: 30px;
+    border: 2px solid rgb(9, 9, 110);
+    border-radius: 10px;
+    color: black;
+
+}
+
+#inp #output {
+    width: 7vw;
+    height: 15px;
+    border: 2px solid rgb(9, 9, 110);
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (min-width: 560px) {
+    .cal {   
+        width: 45vw;
+        border: 10px solid  rgb(9, 110, 24);
+    }
+    
+}
+
+@media screen and (min-width: 750px) {
+    .cal {   
+        width: 45vw;
+        border: 10px solid  rgb(110, 36, 9);
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .cal {   
+        width: 39vw;
+        border: 10px solid  rgb(228, 5, 61);
+    }
+    
+}
